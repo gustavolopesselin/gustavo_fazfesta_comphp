@@ -1,0 +1,790 @@
+@import url('https://fonts.googleapis.com/css?family=Norican');
+@import url('https://fonts.googleapis.com/css?family=Oleo+Script+Swash+Caps');
+@import url('https://fonts.googleapis.com/css?family=Asar');
+@import url('https://fonts.googleapis.com/css?family=Stoke');
+@import url('https://fonts.googleapis.com/css?family=Abril+Fatface');
+@import url('https://fonts.googleapis.com/css?family=Righteous');
+@import url('https://fonts.googleapis.com/css?family=Abril+Fatface');
+@import url('https://fonts.googleapis.com/css?family=Rozha+One');
+@import url('https://fonts.googleapis.com/css?family=Rozha+One');
+@import url('https://fonts.googleapis.com/css?family=Unna');
+
+
+/* ===== HEADER ========= */
+header{
+    position: fixed;
+    width: 100%;
+    top: 0px;
+    background: #000;
+    z-index: 100;
+    padding: 15px 0;
+    text-align: center;
+}
+header nav{
+    margin-top: 2%;
+}
+header ul li{
+    display:inline-block;
+    margin-left: 5px;
+    text-align: center;
+}
+header ul li a{
+    color:#ffffff;
+    font-size: 14px;
+    font-family: 'Rozha One', serif;
+    text-decoration: none;
+}
+header ul li a{
+    border: 1px solid #ffffff;
+    padding: 2px 2px 2px 2px;
+}
+header ul li a:hover{
+   color:rgb(255, 230, 0);
+   border: 1px solid rgb(255, 230, 0);
+   text-decoration: none;
+}
+section{
+    background: rgb(77, 77, 77);
+}
+/* ======== FOOTER ======== */
+footer{
+    background: #000000;
+    margin-bottom: 0px;
+}
+footer ul{
+    margin: 0 auto;
+    text-align: center;
+
+}
+footer ul li{
+    text-align: center;
+    display:inline-block;
+	margin-left: 10px;
+}
+footer ul li a{
+    text-align: center;
+    color:#ffffff;
+    font-size: 18px;
+    font-family: 'Rozha One', serif;
+    text-decoration: none;
+}
+footer ul li a:hover{
+    color:rgb(255, 230, 0);
+    text-decoration: none;
+}
+/* ---- INDEX -------- */
+.sectionindex{
+    margin-top: 180px;
+}
+.sectionindex p{
+    text-align: center;
+    padding-top: 40px;
+    font-size: 50px;
+    font-family: 'Rozha One', serif;
+    color:#ffffff;
+}
+.sectionindex p::before{
+    content:"";
+	display: block;
+	width: 100%;
+	height: 3px;
+	background: #fff;
+	margin: 14px auto 10px auto;
+}
+.sectionindex p:after{
+    content:"";
+	display: block;
+	width: 50%;
+	height: 3px;
+	background: #fff;
+	margin: 14px auto 10px auto;
+}
+.slideshowindex{
+    margin-top: 40px;
+    padding-bottom: 40px;
+}
+.sectionindexbarrapreta{
+    background: #000;
+    
+}
+.sectionindexbarrapreta p{
+    text-align: center;
+    padding-top: 50px;
+    padding-bottom: 40px;
+    font-size: 30px;
+    font-family: 'Stoke', serif;
+    margin: 0 auto;
+    color: #fff;
+}
+.sectioninformacoes h1{
+    margin-top: 20px;
+    text-align: center;
+    font-family: 'Abril Fatface', cursive;
+    font-size: 40px;
+    color: #fff;
+}
+.sectioninformacoes h1:after{
+    content:"";
+	display: block;
+	width: 30%;
+	height: 3px;
+	background: #fff;
+	margin: 14px auto 10px auto;
+
+}
+.sectioninformacoes h1::before{
+    content:"";
+	display: block;
+	width: 100%;
+	height: 3px;
+	background: #fff;
+	margin: 14px auto 10px auto;
+}
+.pindex{
+    text-align: center;
+    font-family: 'Righteous', cursive;
+    font-size: 20px;
+    color: #fff;
+}
+.pindex::after, .pindex:before{
+    content:"";
+	display: block;
+	width: 100%;
+	height: 1px;
+	background: #fff;
+	margin: 14px auto 10px auto;
+}
+
+.pbarraindex{
+    border: 2px groove rgb(255, 255, 255);
+    margin-bottom: 10px;
+}
+.sectioninformacoes img{
+    margin-top: 10px;
+    max-width: 100%;
+    height: auto;
+    margin: 0 auto;
+}
+.infoindex{
+    padding-top: 40px;
+}
+/* ------- SOBRE ----------- */
+.sectionsobre{
+    margin-top: 160px;
+    background: rgb(77, 77, 77);
+}
+.sectionsobre h1{
+    padding-top: 20px;
+    text-align: center;
+    font-size: 50px;
+    color: #fff;
+    font-family: 'Rozha One', serif;
+}
+.sectionsobre h1:after, .sectionsobre h1:before{
+    content:"";
+	display: block;
+	width: 100%;
+	height: 2px;
+	background: #fff;
+	margin: 14px auto 10px auto;
+}
+.sectionsobre p{
+    margin-top: 50px;
+    font-family: 'Asar', serif;
+    font-size: 25px;
+    color: #fff;
+    padding-bottom: 60px;
+}
+.sectionalbumsobre{
+    margin-bottom: 20px;
+    margin-top: 50px;
+    width: 100%;
+    height: 450px;
+    animation: slidesobre 10s infinite;
+    animation-direction: alternate;
+}
+@keyframes slidesobre{
+    0%, 30%{
+        background-image: url(../img/sobre-1.png);
+    }
+    35%, 65%{
+        background-image: url(../img/sobre-2.png);
+    }
+    70%, 100%{
+        background-image: url(../img/sobre-3.png);
+    }
+}
+/* --------- CONTATO ------ */
+.sectioncontato{
+    margin-top: 160px;
+}
+.sectioncontato h1{
+    padding-top: 25px;
+    text-align: center;
+    font-size: 50px;
+    color: #fff;
+    font-family: 'Rozha One', serif;
+}
+.sectioncontato h1:before, .sectioncontato h1:after{
+    content:"";
+	display: block;
+	width: 100%;
+	height: 2px;
+	background: #fff;
+	margin: 14px auto 10px auto;
+}
+.sectioncontato h2{
+    padding-top: 10px;
+    text-align: center;
+    font-size: 35px;
+    color: #fff;
+    font-family: 'Rozha One', serif;
+}
+#map{
+    height: 400px;
+}
+.sectioncontatoinfo{
+    text-align: center;
+}
+.sectioncontatoinfo h1{
+    
+    text-align: center;
+    font-size: 40px;
+    color: #fff;
+    font-family: 'Rozha One', serif;
+}
+.sectioncontatoinfo h1:before, .sectioncontatoinfo h1:after{
+    content:"";
+	display: block;
+	width: 100%;
+	height: 3px;
+	background: #fff;
+	margin: 14px auto 10px auto;
+}
+.sectioncontatoinfo img{
+    margin-top: 30px;
+    width: 100%;
+    padding-bottom: 10px;
+}
+.sectioncontatoinfo p{
+    margin-top: 20px;
+    font-family: 'Asar', serif;
+    font-size: 25px;
+    color: #fff;
+}
+/* ------- PRODUTOS --------- */
+.sectionprodutos1{
+    margin-top: 160px;
+}
+.sectionprodutos1 h1{
+    padding-top: 25px;
+    text-align: center;
+    font-size: 50px;
+    color: #fff;
+    font-family: 'Oleo Script Swash Caps', cursive;
+}
+.slideshowprodutos{
+    padding-bottom: 40px;
+}
+.sectionprodutos1 h1:before, .sectionprodutos1 h1:after{
+    content:"";
+	display: block;
+	width: 100%;
+	height: 2px;
+	background: #fff;
+	margin: 14px auto 10px auto;
+}
+.sectionprodutos h1{
+    text-align: center;
+    font-size: 50px;
+    color: #fff;
+    font-family: 'Oleo Script Swash Caps', cursive;
+}
+
+.sectionprodutos h1:before, .sectionprodutos h1:after{
+    content:"";
+	display: block;
+	width: 100%;
+	height: 2px;
+	background: #fff;
+	margin: 14px auto 10px auto;
+}
+/* ----- ALBUM ---------- */
+.sectionalbum{
+    background: rgb(77, 77, 77);
+    margin-top: 180px;
+}
+.sectionalbum h1{
+    padding-top: 25px;
+    text-align: center;
+    font-size: 50px;
+    color: #fff;
+    font-family: 'Oleo Script Swash Caps', cursive;
+}
+.sectionalbum h1:before{
+    content:"";
+	display: block;
+	width: 100%;
+	height: 2px;
+	background: #fff;
+	margin: 14px auto 10px auto;
+}
+.sectionalbumtitulop{
+    color: #fff;
+    font-family: 'Norican', cursive;
+    font-size: 55px;
+}
+.sectionalbumtestop{
+    padding-top: 10px;
+    color: #fff;
+    font-family: 'Unna', serif;
+    font-size: 22px;
+    padding-bottom: 30px;
+}
+.sectionalbum1{
+    width: 50%;
+    height: 300px;
+    animation: slide1 10s infinite;
+    animation-direction: alternate;
+}
+@keyframes slide1{
+    0%, 30%{
+        background-image: url(../img/album/album-1-1.png);
+    }
+    35%, 65%{
+        background-image: url(../img/album/album-1-2.png);
+    }
+    70%, 100%{
+        background-image: url(../img/album/album-1-3.png);
+    }
+}
+.sectionalbum2{
+    width: 50%;
+    height: 300px;
+    animation: slide2 10s infinite;
+    animation-direction: alternate;
+}
+@keyframes slide2{
+    0%, 30%{
+        background-image: url(../img/album/album-2-1.png);
+    }
+    35%, 65%{
+        background-image: url(../img/album/album-2-2.png);
+    }
+    70%, 100%{
+        background-image: url(../img/album/album-2-3.png);
+    }
+}
+.sectionalbum3{
+    width: 50%;
+    height: 300px;
+    animation: slide3 10s infinite;
+    animation-direction: alternate;
+}
+@keyframes slide3{
+    0%, 30%{
+        background-image: url(../img/album/album-3-1.png);
+    }
+    35%, 65%{
+        background-image: url(../img/album/album-3-2.png);
+    }
+    70%, 100%{
+        background-image: url(../img/album/album-3-3.png);
+    }
+}
+.sectionalbum4{
+    width: 50%;
+    height: 300px;
+    animation: slide4 10s infinite;
+    animation-direction: alternate;
+}
+@keyframes slide4{
+    0%, 30%{
+        background-image: url(../img/album/album-4-1.png);
+    }
+    35%, 65%{
+        background-image: url(../img/album/album-4-2.png);
+    }
+    70%, 100%{
+        background-image: url(../img/album/album-4-3.png);
+    }
+}
+.sectionalbumbarra{
+    content:"";
+	display: block;
+	width: 100%;
+	height: 2px;
+	background: #fff;
+	margin: 14px auto 10px auto;
+}
+.sectionalespaco{
+    padding-bottom: 30px;
+}
+
+
+/* ---- LOGIN E CADASTRO ---------- */
+.sectioncadastro{
+    background: rgb(77, 77, 77);
+    margin-top: 170px;
+}
+.sectioncadastro legend{
+    padding-top: 50px;
+    font-family: Arial;
+    font-size: 50px;
+    text-align: center;
+    color: #fff;
+}
+.sectioncadastro label{
+    font-family: Arial;
+    font-size: 20px;
+    color: #fff;
+}
+.sectioncadastroinfo{
+    height: 430px;
+}
+.sectioncadastrobuttonlogar{
+    margin-left: 55%;
+}
+.sectioncadastrobuttoncadastro{
+    margin-left: 50%;
+}
+.sectioncadastroinfo p{
+    
+    padding-top: 40px;
+    text-align: center;
+    font-family: Arial;
+    font-size: 16px;
+    color: rgb(116, 116, 116)
+}
+/* ------ CADASTRO -------- */
+.sectioncadastrocliente{
+    background: rgb(77, 77, 77); 
+}
+.sectioncadastrocliente h1{
+    padding-bottom: 20px;
+    padding-top: 20px;
+    font-size: 60px;
+    color: #fff;
+    font-family: Helvetica;
+}
+.sectioncadastrocliente legend{
+    color: #fff;
+    font-size: 50px;
+    font-family: sans-serif;
+    
+}
+.sectioncadastrocliente label, .sectioncadastrocliente span{
+    color: #fff;
+    font-size: 20px;
+   
+} 
+
+.sectioncadastrocliente h2{
+    text-align: center;
+    padding-bottom: 20px;
+    padding-top: 35px;
+    
+    
+}
+.sectioncadastrocliente h2 a{
+    color: #fff;
+    border: 2px groove rgb(255, 255, 255);
+    padding: 8px;
+    
+    
+}
+.sectioncadastrocliente a:hover{
+    color: rgb(255, 230, 0);
+    text-decoration: none;
+    border: 2px groove rgb(255, 230, 0);
+}
+/* --------- Menu ------- */
+ .headermenucliente{
+    position: fixed;
+    width: 100%;
+    top: 0px;
+    background: #000;
+    z-index: 100;
+    text-align: center;
+}
+.headermenucliente ul li{
+    display:inline-block;
+    margin-left: 7px;
+    margin-top: 12px;
+    
+}
+.headermenucliente ul li a{
+    color:#ffffff;
+    font-size: 15px;
+    font-family: 'Rozha One', serif;
+    text-decoration: none;
+    
+}
+.headermenucliente ul li a:hover{
+    color:rgb(255, 230, 0);
+    text-decoration: none;
+}
+/* --------- Dados Conta --------- */
+.sectiondadoscontacliente{
+    background: rgb(77, 77, 77);
+}
+
+.sectiondadoscontacliente h1{
+    padding-bottom: 20px;
+    padding-top: 20px;
+    font-size: 60px;
+    color: #fff;
+    font-family: Helvetica;
+}
+.sectiondadoscontacliente legend{
+    color: #fff;
+    font-size: 50px;
+    font-family: sans-serif;
+}
+.sectiondadoscontacliente label, .sectiondadoscontacliente span{
+    color: #fff;
+    font-size: 20px;
+}
+.sectiondadoscontacliente h2{
+    text-align: center;
+    padding-bottom: 20px;
+    padding-top: 40px;
+}
+.sectiondadoscontacliente h2 a{
+    color: #fff;
+    border: 2px groove rgb(255, 255, 255);
+    padding: 8px;
+}
+.sectiondadoscontacliente h2 a:hover{
+    color: rgb(255, 230, 0);
+    text-decoration: none;
+    border: 2px groove rgb(255, 230, 0);
+}
+/*---------- MENU USUARIO ------*/
+.sectionmenu{
+    margin-top: 180px;
+    background: rgb(77, 77, 77);
+    text-align: center;
+    height: 870px;
+}
+.sectionmenu h1{
+    padding-left: 25px;
+    color: #ffffff;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    font-family: Arial;
+    font-size: 25px;
+    text-align: left;
+}
+.sectionmenu h3{
+    padding-bottom: 30px;
+    color: #969696;
+    font-family: Arial;
+    font-size: 15px;
+    text-align: center;
+}
+
+.sectionmenuborda{
+    border:1px solid #ffffff;
+    margin-top: 30px;
+}
+.sectionmenu h2{
+    color: #ffffff;
+    font-family: Arial;
+    font-size: 32px;
+    text-align: center;
+}
+.sectionmenu p{
+    padding-top: 15px;
+    color: #ffffff;
+    font-family: Arial;
+    font-size: 15px;
+    text-align: center;
+}
+/*---------- EVENTO -----------*/
+.sectioneventos{
+    margin-top: 170px;
+    background: rgb(77, 77, 77);
+    text-align: center;
+    height: 900px;
+}
+.sectioneventos h1{
+    padding-top: 15px;
+    color: #fff;
+    font-size: 40px;
+    font-family: Arial;
+}
+.sectioneventos h1:before{
+    content:"";
+	display: block;
+	width: 100%;
+	height: 3px;
+	background: #fff;
+	margin: 14px auto 10px auto;
+}
+.sectioneventos h1:after{
+    content:"";
+	display: block;
+	width: 100%;
+	height: 3px;
+	background: #fff;
+	margin: 14px auto 10px auto;
+}
+.sectioneventos p{
+    color: #ffffff;
+    font-size: 15px;
+    font-family: Arial;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.tabelaevento{
+    margin: 0 auto;
+}
+.tabelaevento tr{
+    border:1px solid #868686;
+}
+.tabelaevento th{
+    text-align: center;
+    font-size: 17px;
+    color: #ffffff;
+    padding-left: 5px;
+    padding-right: 5px;
+    font-family: Arial;
+    border:1px solid #868686;
+}
+.tabelaevento td{
+    text-align: center;
+    font-size: 11px;
+    color: #ffffff;
+    padding-left: 5px;
+    padding-right: 5px;
+    font-family: Arial;
+    border:1px solid #868686;
+}
+/*------------ PRODUTOS LOGIN---------*/
+.sectionprodutoslogin{
+    margin-top: 170px;
+    background: rgb(77, 77, 77);
+    text-align: center;
+    height: 900px;
+}
+.sectionprodutoslogin h1{
+    padding-top: 15px;
+    color: #fff;
+    font-size: 40px;
+    font-family: Arial;
+}
+.sectionprodutoslogin h1:before{
+    content:"";
+	display: block;
+	width: 100%;
+	height: 3px;
+	background: #fff;
+	margin: 14px auto 10px auto;
+}
+.sectionprodutoslogin h1:after{
+    content:"";
+	display: block;
+	width: 100%;
+	height: 3px;
+	background: #fff;
+	margin: 14px auto 10px auto;
+}
+.sectionprodutoslogin p{
+    color: #ffffff;
+    font-size: 15px;
+    font-family: Arial;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.tabelaprodutos{
+    margin: 0 auto;
+}
+.tabelaprodutos tr{
+    border:3px solid #868686;
+
+}
+.tabelaprodutos th{
+    text-align: center;
+    font-size: 16px;
+    color: #ffffff;
+    padding-left: 5px;
+    padding-right: 5px;
+    font-family: Arial;
+    border:1px solid #868686;
+}
+.tabelaprodutos td{
+    text-align: center;
+    font-size: 12px;
+    color: #ffffff;
+    padding-left: 5px;
+    padding-right: 5px;
+    font-family: Arial;
+    border:1px solid #868686;
+}
+
+/*---------- CONTROLE USUARIO ----*/
+.sectioncontroleusuario{
+    margin-top: 180px;
+    background: rgb(77, 77, 77);
+    text-align: center;
+    height: 900px;
+}
+.sectioncontroleusuario h1{
+    padding-top: 40px;
+    color: #fff;
+    font-size: 40px;
+    font-family: Arial;
+}
+.sectioncontroleusuario h1:before{
+    content:"";
+	display: block;
+	width: 100%;
+	height: 3px;
+	background: #fff;
+	margin: 14px auto 10px auto;
+}
+.sectioncontroleusuario h1:after{
+    content:"";
+	display: block;
+	width: 100%;
+	height: 3px;
+	background: #fff;
+	margin: 14px auto 10px auto;
+}
+.sectioncontroleusuario p{
+    color: #ffffff;
+    font-size: 15px;
+    font-family: Arial;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.tabelacontroleusuario{
+    margin: 0 auto;
+}
+.tabelacontroleusuario tr{
+    border:3px solid #868686;
+
+}
+.tabelacontroleusuario th{
+    text-align: center;
+    font-size: 18px;
+    color: #ffffff;
+    padding-left: 5px;
+    padding-right: 5px;
+    font-family: Arial;
+    border:1px solid #868686;
+}
+.tabelacontroleusuario td{
+    text-align: center;
+    font-size: 12px;
+    color: #ffffff;
+    padding-left: 5px;
+    padding-right: 5px;
+    font-family: Arial;
+    border:1px solid #868686;
+}
+
+
+
+

@@ -1,0 +1,5 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<info>
+	<infoitem key="UD_selectcontroleusuario" value="name:id_usuario;datatype:int,name:nome_usuario;datatype:string,name:email_usuario;datatype:string,name:cidade_usuario;datatype:string,name:estado_usuario;datatype:string,name:celular_usuario;datatype:string,name:senha_usuario;datatype:string,name:tipo_usuario;datatype:string" />
+	<infoitem key="UD_selectusuario" value="name:id_usuario;datatype:int,name:nome_usuario;datatype:string,name:email_usuario;datatype:string,name:cidade_usuario;datatype:string,name:estado_usuario;datatype:string,name:celular_usuario;datatype:string,name:senha_usuario;datatype:string,name:tipo_usuario;datatype:string" />
+</info>

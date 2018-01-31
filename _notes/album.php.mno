@@ -1,0 +1,4 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<info>
+	<infoitem key="UD_selectalbum" value="name:tipo_album;datatype:string,name:descricao_album;datatype:string" />
+</info>

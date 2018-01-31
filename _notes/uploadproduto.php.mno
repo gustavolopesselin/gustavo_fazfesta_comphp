@@ -1,0 +1,4 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<info>
+	<infoitem key="UD_selectupdateproduto" value="name:id_produto;datatype:int,name:tipo_produto;datatype:string,name:cor_produto;datatype:string,name:descricao_produto;datatype:string,name:quantidade_produto;datatype:int,name:precound_produto;datatype:real" />
+</info>

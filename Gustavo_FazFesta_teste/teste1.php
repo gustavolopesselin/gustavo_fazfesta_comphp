@@ -1,0 +1,1 @@
+﻿<a href="teste2.php?$texto=teste&$senha=1">Teste</a>
